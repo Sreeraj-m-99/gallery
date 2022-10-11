@@ -1,0 +1,94 @@
+
+body{
+    background-color: black;
+}.row{
+    position: relative;
+    /* width: 5000px;
+    height: 5000px; */
+    /* background-color: black; */
+   
+}
+
+.rating{
+    position: relative;
+    background-color: rgba(0, 255, 0, 0.20);
+    height: 30px;
+    /* border-radius: 20px; */
+    color:white;
+    border: 3px solid rgba(255,255,255,0.6)
+
+}
+.rate{
+    position: absolute;
+    right:5%;
+    top:5px;
+    text-align: center;
+
+}
+.imdb{
+    position: absolute;
+    left: 5%;
+    top:5px;
+    text-align: center;
+}
+img{
+    height:300px;
+    width:300px;
+}
+h2{
+    text-align: center;
+    color:gold;
+    height:50px;
+    /* background-color: bisque; */
+}
+.card{
+    padding:10px;
+    color:white;
+    height:340px;
+    /* width:300px; */
+    /* overflow:hidden; */
+}
+strong{
+    color:pink
+}
+.col-1{
+    left:10px;
+    position: absolute;
+    width:300px;
+    /* border: 5px solid white; */
+    /* padding-left: 15px; */
+}
+.col-2{
+    position: absolute;
+    width:300px;
+    left:320px;
+}
+.col-3{
+    position: absolute;
+    width:300px;
+    left:630px;
+}
+.col-4{
+    position: absolute;
+    width:300px;
+    left:940px;
+    
+}
+.col-5{
+    position: absolute;
+    width:300px;
+    left:1250px;
+}
+/* .note{
+    height:80px;
+    /* background-color: aliceblue; */
+    /* overflow: hidden; */
+} */
+h1{
+    color:magenta;
+    text-align: center;
+}
+#note{
+    height:80px;
+    /* font-style: italic; */
+}
